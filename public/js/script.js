@@ -13,7 +13,7 @@ function nowTime() {
     document.getElementById('timeChart').innerHTML = nowTimePrint;
 
     // Agregando datos para el myHeartChart
-    var z = hour + ":" + minute + ":" + second + " Hrs";
+    var z = nowTimePrint + " Hrs";
     var x = Math.random();
     dataHeartCont.push(
         {
